@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <title>Memory Game Multi Level + Sound</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>เกมจับคู่ภาพหลายด่าน</h1>
+
+    <div id="level-menu">
+        <h2>เลือกด่าน</h2>
+        <button onclick="startGame(1)">Level 1</button>
+        <button onclick="startGame(2)">Level 2</button>
+        <button onclick="startGame(3)">Level 3</button>
+    </div>
+
+    <div id="game" style="display:none;">
+        <h2 id="level-title"></h2>
+        <div class="game-container"></div>
+    </div>
+
+    <!-- ปลดล็อกเสียงใน Chrome -->
+    <button id="unlock-sound" style="display:none;">กดเพื่อเปิดเสียง</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
